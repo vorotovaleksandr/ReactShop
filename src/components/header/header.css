@@ -1,0 +1,28 @@
+.header-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 100%;
+  grid-template-areas: "title login";
+}
+  
+.title { 
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-area: title; 
+  font-size: calc(15px + 2vmin);
+}
+  
+.login { 
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-area: login; 
+  font-size: calc(3px + 2vmin);
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
-import Title from '../title/title';
-import Login from '../login/login';
+import Title from '../../components/title/title';
+import Login from '../../components/login/login';
 
 const Header = () => {
   return (

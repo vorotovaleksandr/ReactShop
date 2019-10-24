@@ -1,7 +1,7 @@
 import React from 'react';
 import './layout.css';
-import Nav from '../nav/nav';
-import Content from '../content/content'
+import Nav from '../../components/nav/nav';
+import Content from '../../components/content/content'
 
 const Layout = () => {
   return (

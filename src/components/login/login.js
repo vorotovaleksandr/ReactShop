@@ -5,7 +5,7 @@ import './login.css'
 const Login = () => {
   return(  
     <div>
-      <Link to="login" className="login">login</Link>
+      <Link to="/auth/login" className="login">login</Link>
     </div>
   )  
 }

@@ -3,7 +3,7 @@ import React from 'react';
 const Title = () => {
   return(
     <div>
-      Торговая площадка 
+      Marketplace 
     </div>
   );
 }

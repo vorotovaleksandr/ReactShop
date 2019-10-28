@@ -1,0 +1,47 @@
+{
+  "example": {
+    "id": "1",
+    "title": "FUN FACTS ABOUT DOGS",
+    "body": "this body",
+    "imgSrc": "https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_1280.jpg"
+  },
+  
+  "users":  [
+        {
+          "userId": "1",
+          "userName": "ololo1",
+          "login": "test1",
+          "password": "123456"
+        },
+        {
+          "userId": "2",
+          "userName": "ololo2",
+          "login": "test2",
+          "password": "123456"
+        },
+        {
+          "userId": "3",
+          "userName": "ololo3",
+          "login": "test3",
+          "password": "123456"
+        },
+        {
+          "userId": "4",
+          "userName": "ololo4",
+          "login": "test4",
+          "password": "123456"
+        },
+        {
+          "userId": "5",
+          "userName": "ololo5",
+          "login": "test5",
+          "password": "123456"
+        },
+        {
+          "userId": "6",
+          "userName": "ololo6",
+          "login": "test6",
+          "password": "123456"
+        }
+      ]
+}

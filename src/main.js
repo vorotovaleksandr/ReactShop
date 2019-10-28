@@ -6,10 +6,7 @@ import Layout from "./containers/layout/layout";
 import AuthUser from "./containers/authUser/authUser"
 import { Provider } from 'react-redux'
 import { store } from './store/configureStore'
-
-const createHistory = require("history").createBrowserHistory;
-
-const history = createHistory();
+import { history } from './_helpers/history'
 
 const Main = () => {
   return (
@@ -20,8 +17,14 @@ const Main = () => {
             <Header />
           </div>
           <div className="content">
-            <Route path="/auth/login" component={AuthUser} />
-            <Route path="/" component={Layout} />
+            <Route exact path="/auth/login" component={AuthUser} />
+            <Route exact path="/auth/register" component={AuthUser} />
+            <Route exact path="/products" component={Layout} />
+            <Route exact path="/shops" component={Layout} />
+            <Route exact path="/myproducts" component={Layout} />
+            <Route exact path="/myshop" component={Layout} />
+            <Route exact path="/admin" component={Layout} />
+            <Route exact  path="/" component={Layout} />
           </div>
           <div className="footer"> exceed-team 2019 </div>
         </div>

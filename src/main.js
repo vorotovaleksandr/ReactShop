@@ -3,6 +3,7 @@ import { Router, Route } from "react-router";
 import "./main.css";
 import Header from "./components/header/header";
 import Layout from "./components/layout/layout";
+import QuestionTwo from "./components/HomeWork/HomeWork";
 
 const createHistory = require("history").createBrowserHistory;
 
@@ -16,7 +17,9 @@ const Main = () => {
           <Route path="/" component={Header} />
         </div>
         <div className="content">
-          <Route path="/" component={Layout} />
+          <Route exact path="/" component={Layout} />
+          <Route exact path='/example' component={QuestionTwo}/>
+
         </div>
         <div className="footer"> exceed-team 2019 </div>
       </div>

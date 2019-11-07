@@ -8,6 +8,6 @@ const Login = () => {
       <Link to="login" className="login">login</Link>
     </div>
   )  
-}
+};
 
 export default Login;
